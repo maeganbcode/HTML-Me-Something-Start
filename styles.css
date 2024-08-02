@@ -1,1 +1,47 @@
-/* Write your CSS here! */
+body {
+    width: 100%;
+    max-width: 1024px;
+    margin: 8px;
+    display: block;
+}
+
+header,
+main {
+      background-color:aliceblue;
+      font-size:medium;
+      
+}
+
+#mainHeading {
+    color:red;
+    padding: 1em 0;  
+}
+
+header h1, h2 {
+    text-align: center;
+}
+
+h1, h2, h3 {
+    margin: 8px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: medium;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 8px;
+}
+
+.funParagraph {
+    color: green;
+}
+
+.footer {
+    background-color: antiquewhite;
+    text-align: center;
+}
